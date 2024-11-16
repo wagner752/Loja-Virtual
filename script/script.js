@@ -5,12 +5,12 @@ const SHEET_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vS2VP2o7HF3OP
 let cart = [];
 let whatsappNumber = ""; // Variável para armazenar o número do WhatsApp
 
-/*
+
 // Mostrar o modal ao carregar a página
 window.onload = () => {
   const modal = new bootstrap.Modal(document.getElementById("whatsappModal"));
   modal.show();
-};*/
+};
 
 // Salvar o número de WhatsApp
 function saveWhatsAppNumber() {
